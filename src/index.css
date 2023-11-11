@@ -1,4 +1,4 @@
-.centrarElementos{
+.centrarElementos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,14 +7,19 @@
 
 }
 
-.centrarElementos button{
+.centrarElementos button {
     margin: 5px 10px;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: blue;
+    color: rgb(255, 0, 0);
+}
+
+.iconLock {
+
+    color: rgb(255, 0, 0);
 }

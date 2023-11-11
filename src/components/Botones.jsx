@@ -16,12 +16,12 @@ export default function Botones() {
                 align="center"
 
             >
-                Estilo de Botones Grandes
+                Estilo de Botones Grandes..
             </Typography>
 
             <div className="centrarElementos">
-                <Button className="button" variant="outlined" color="secondary">Secondary</Button>
-                <Button className="button" variant="contained" color="primary">Primary</Button>
+                <Button className="button" variant="outlined" color="indigo">Secondary</Button>
+                <Button className="button" variant="contained" color="bgwarning">Primary</Button>
                 <Button variant="contained" disabled>Disabled</Button>
                 <Button variant="contained" color="primary" href="https://mui.com/material-ui/getting-started/installation/" target="_blank" >Install MUI</Button>
                 <Button variant="contained" color="success">Success</Button>
@@ -29,36 +29,36 @@ export default function Botones() {
             </div>
 
             <div className="centrarElementos">
-            <Typography
-                variant="h4"
-                component="div"
-                color={{ color: '#06079C' }}
-                mt={5}
-                mb={5}
-                align="center"
+                <Typography
+                    variant="h4"
+                    component="div"
+                    color={{ color: '#06079C' }}
+                    mt={5}
+                    mb={5}
+                    align="center"
 
-            >
-                Estilo de Botones Pequeños 
-            </Typography>
-            <Button variant="outlined" size="small" >
+                >
+                    Estilo de Botones Pequeños
+                </Typography>
+                <Button variant="outlined" size="small" >
                     Small
                 </Button>
                 <Button variant="outlined" size="medium">
-                        Medium
+                    Medium
                 </Button>
                 <Button variant="outlined" size="large">
-                        Large
+                    Large
                 </Button>
 
             </div>
 
-             <h1 className="titulo">Botones con Icones</h1>
+            <h1 className="titulo">Botones con Icones</h1>
             <div className="centrarElementos">
                 <Button variant="contained" color="primary" startIcon={<SaveAsIcon />}> Guardar </Button>
                 <Button variant="contained" color="secondary" startIcon={<ShoppingCartIcon />}> Comprar </Button>
-                <Button variant="contained" color="success" startIcon={< EditIcon/>}> Editar </Button>
-                <Button variant="outlined"  color="error" startIcon={<DeleteIcon/>} >Eliminar</Button>
-                
+                <Button variant="contained" color="success" startIcon={< EditIcon />}> Editar </Button>
+                <Button variant="outlined" color="error" startIcon={<DeleteIcon />} >Eliminar</Button>
+
 
             </div>
 
@@ -67,7 +67,7 @@ export default function Botones() {
             <Box
                 sx={{
                     border: 5,
-                    padding: 2,
+                    padding: 3,
                     borderRadius: 3,
                     borderColor: 'primary.main',
                     textAlign: 'center',
@@ -75,11 +75,11 @@ export default function Botones() {
                     boxShadow: 5,
                 }}
             >
-                 <Typography variant="h5" component="div" textAlign={'center'}>
+                <Typography variant="h5" component="div" textAlign={'center'}>
                     Curso de React + vite + Material UI + Intecap
                 </Typography>
             </Box>
-            
+
 
 
         </div>
